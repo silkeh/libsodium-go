@@ -1,8 +1,8 @@
 package sodium
 
 import (
-	"testing"
 	"strings"
+	"testing"
 )
 
 func TestSodiumVersion(t *testing.T) {

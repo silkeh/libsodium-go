@@ -22,5 +22,5 @@ func LibraryVersionMinor() int {
 
 // LibraryMinimal returns true for a minimal build
 func LibraryMinimal() bool {
-	return int(C.sodium_library_minimal()) != 0
+	return C.sodium_library_minimal() != 0
 }

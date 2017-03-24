@@ -40,6 +40,13 @@ func CheckSizeGreaterOrEqual(a, b []byte, aDescription, bDescription string) {
 	}
 }
 
+// CheckSizeEqual checks if the sizes of two byte slices are equal to each other.
+func CheckSizeEqual(a, b []byte, aDescrip, bDescrip string) {
+	if len(a) != len(b) {
+		panic(fmt.Sprintf("Size of %s (%d) not equal to size of %s (%d)", aDescrip, a, bDescrip, b))
+	}
+}
+
 // NilPanic is a shorthand that results in a panic when called with true.
 func NilPanic(t bool, description string) {
 	if t {
