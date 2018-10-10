@@ -5,8 +5,8 @@ package auth
 // #include <sodium.h>
 import "C"
 import (
-	"github.com/GoKillers/libsodium-go/crypto/auth/hmacsha512"
-	"github.com/GoKillers/libsodium-go/support"
+	"github.com/silkeh/libsodium-go/crypto/auth/hmacsha512"
+	"github.com/silkeh/libsodium-go/support"
 	"hash"
 )
 

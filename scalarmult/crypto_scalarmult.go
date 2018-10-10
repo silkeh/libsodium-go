@@ -4,7 +4,7 @@ package scalarmult
 // #include <stdlib.h>
 // #include <sodium.h>
 import "C"
-import "github.com/GoKillers/libsodium-go/support"
+import "github.com/silkeh/libsodium-go/support"
 
 func CryptoScalarmultBytes() int {
 	return int(C.crypto_scalarmult_bytes())

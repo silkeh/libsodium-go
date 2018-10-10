@@ -4,7 +4,7 @@ package hash
 // #include <stdlib.h>
 // #include <sodium.h>
 import "C"
-import "github.com/GoKillers/libsodium-go/support"
+import "github.com/silkeh/libsodium-go/support"
 
 const (
 	// Bytes is the size of the hash in bytes

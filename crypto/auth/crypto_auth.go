@@ -5,7 +5,7 @@ package auth
 // #include <stdlib.h>
 // #include <sodium.h>
 import "C"
-import "github.com/GoKillers/libsodium-go/support"
+import "github.com/silkeh/libsodium-go/support"
 
 func init() {
 	C.sodium_init()

@@ -5,8 +5,8 @@ package aead
 // #include <sodium.h>
 import "C"
 import (
-	"github.com/GoKillers/libsodium-go/crypto/aead/aes256gcm"
-	"github.com/GoKillers/libsodium-go/support"
+	"github.com/silkeh/libsodium-go/crypto/aead/aes256gcm"
+	"github.com/silkeh/libsodium-go/support"
 	"unsafe"
 )
 

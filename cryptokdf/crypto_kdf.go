@@ -4,7 +4,7 @@ package cryptokdf
 // #include <stdlib.h>
 // #include <sodium.h>
 import "C"
-import "github.com/GoKillers/libsodium-go/support"
+import "github.com/silkeh/libsodium-go/support"
 
 func CryptoKdfKeybytes() int {
 	return int(C.crypto_kdf_keybytes())

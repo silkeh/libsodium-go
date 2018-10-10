@@ -2,7 +2,7 @@ package auth
 
 import (
 	"bytes"
-	"github.com/GoKillers/libsodium-go/crypto/auth/hmacsha256"
+	"github.com/silkeh/libsodium-go/crypto/auth/hmacsha256"
 	"github.com/google/gofuzz"
 	"testing"
 )
